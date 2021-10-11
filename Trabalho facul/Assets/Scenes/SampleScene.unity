@@ -10352,7 +10352,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 4
+  m_GravityScale: 5
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -10382,7 +10382,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.2, y: 0.23}
+  m_Size: {x: 0.18, y: 0.23}
   m_EdgeRadius: 0
 --- !u!212 &1187448818
 SpriteRenderer:
@@ -10462,7 +10462,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 6.04
-  JumpForce: 11.02
+  JumpForce: 9.29
+  isJumping: 0
+  doubleJump: 0
 --- !u!95 &1187448821
 Animator:
   serializedVersion: 3
